@@ -11,7 +11,7 @@ an object oriented API of Diffbot:
 ```java
 public class Main {
   public static void main(String[] args) {
-    final GDiffbot diffbot = new RtDiffbot(".. your OAuth token ..", "..version..");
+    final Diffbot diffbot = new RtDiffbot(".. your OAuth token ..", "..version..");
     final Article article = diffbot.article(".. url ..");
     System.out.println(new Article.Smart(article).title());
   }
